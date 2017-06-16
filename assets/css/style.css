@@ -4,7 +4,6 @@ body {
 	"Georgia", "Times New Roman", Times, serif;
 	font-size: 18px;
 	line-height: 1.5;
-	/*margin: 20px; */
 }
 
 .name {
@@ -24,7 +23,6 @@ h2 {
 	font-size: 24px;
 	font-family: "Georgia", "Times", "Times New Roman";
 	color: #4aaaa5;
-	background-color: #fff;
 	padding-top: 20px;
 
 }
@@ -37,7 +35,7 @@ h3 {
 
 .container {
 	width: 100%;
-	background-color: lightgray;
+	margin-bottom: 0;
 }
 
 .containerheader {
@@ -49,16 +47,15 @@ h3 {
 }
 	
 .containeraboutme {
-	/*width: 650px;
-	height: 500px;*/
 	width: 45%;
 	margin-left: 15%;
 	margin-bottom: 35px;
 	background: white;
 	margin: 0 auto;
+	border: .5px solid #ccc;
+
 	
 }
-
 
 .contact {
 	text-align: right;
@@ -74,19 +71,20 @@ h3 {
 }
 
 a {
-	text-decoration: none
+	text-decoration: none;
+	padding-right: 15px;
 }
 
 .navbar {
 	float:right;
 	margin-top:30px;
 	padding:20px;
-	margin-right: 100px;
+	margin-right: 90px;
 }
 
 #description {
-	font-family: font-family: "Arial", "Helvetica Neue", serif
-	"Georgia", "Times New Roman", Times, serif;
+	font-family: font-family: "Arial", "Helvetica Neue",
+	"Georgia", "Times New Roman"
 	font-size: 14px;
 }
 
@@ -96,32 +94,77 @@ a {
 	top: 125px;
 	right: 75px;
 	background: white;
-	/*height: 90px;
-	width: 180px;*/
 	width: 17%;
 	margin-bottom: 30px;
+	margin-top: 20px;
+	border: .5px solid #dddddd;
 }
 
 footer {
+	clear: both;
+	bottom: 0px;
 	text-align: center;
 	color: #fff;
 	border-top: 5px solid #4aaaa5;
 	background: gray;
-	margin-top: 20px;
+	margin-top: 80px;
+	padding-top: 36px;
+    margin-bottom: -12px;
+    padding-bottom: 30px;
+
 }
 
 footer p {
-	padding-top:50px;
+	padding-top:30px;
+	margin-bottom: 0px;
 }
+
 
 .contactMe {
 	margin: 0 auto;
 	width: 400px;
 	height: 400px;
 	background: white;
+	padding-right: 40px;
+	padding-left: 130px;
 }
 
 .connectText {
 	margin-bottom: 25px;
 	border-bottom: .5px solid gray;
 }
+
+body {
+	background: url(../images/background.png)
+}
+
+
+.containerPortfolio {
+	
+	margin-left: 35px;
+	margin-bottom: 35px;
+	background: white;
+	margin: 0 auto;
+	border: .5px solid gray;
+	padding: 30px;
+    overflow: auto;
+
+}
+
+.placeholderImages {
+	position: relative;
+	float: left;
+	padding: 30px;
+}
+
+.placeholderImages p {
+	margin-top: -50px;
+	margin-bottom: 50px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	border: 2px solid #4aaaa5;
+	position: relative;
+}
+
+
