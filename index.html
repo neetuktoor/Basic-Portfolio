@@ -4,55 +4,51 @@
 	<head>
 
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<title>Basic Portfolio</title>
 
 	</head>
 
 	<body>
-
-		<header>
-			
-			<h1>Neetu Toor</h1>
-
-		</header>
-
+	<!--- beginning large container-->
 	<div class="container">
-	
-		<section id="mainBio">
-
-	<section>
-
-			<nav>
-
-				<ul class="navBar">
-  					<a href="index.html" class="navBar">About</a>
-
-  					<a href="portfolio.html" Portfolio="navBar">Portfolio</a>
-
-  					<a href="contact.html" Contact="navBar">Contact</a>
-	
-			</nav>
-
-		<h2>About Me</section>
-
-		<hr>
-
-		  <img src="assets/images/biopic.png" alt="StackOverFlow"></a>
-
-			<p id="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
- 		 </section>
+		
+	<!--- beginning header container-->
+		<div class="containerheader">
 			
+				<h1 class="name">Neetu Toor</h1>
+				<nav class="navbar">
 
-		</header>
+  					<a href="index.html">About</a>
 
-	</section>
+  					<a href="portfolio.html">Portfolio</a>
+
+  					<a href="contact.html">Contact</a>
+				</nav>
+
+		</div>
+		<!--ending header container-->
+
+
+		<!--beginning about me container-->
+
+		<div class="containeraboutme">
+
+			<h2>About Me</h2>
+
+			<p id="description">
+					 	 <img src="assets/images/biopic.png" alt name="Bio Picture" id="biopic"> Hey, my name is Neetu, and I'm a three-day web developer. I graduated from the University of Texas in Austin three years ago with a degree and Magazine Editing & Writing, as well as a degree in Corportate Communication. College was an awesome experience, but it didn't do shit to prepare me for the real world. After I graduated, all I knew was that I wanted to stay in Austin, so I took the first job I was offered. I ended up working for a small company that collects educational data and submits it to state department education agencies. One day I woke up and through, "fuck, I've been at this company for three years and feel more lost than ever." Next thing I knew, I enrolled myself into this coding bootcamp. They day before it started, I thought to myself, "fuck, I still don't know what I want to do, but I'm going to go with it. Three days in, i've realized, there's no greater elation than getting a code to work! So, at this point in my life, all I know is there are 4 things I truly love: Austin, TX, my pup, being outdoors, and seeing a code you put together show the results you actually wanted! So fuck it, let's see how this goes! </p>
+ 		 </div>
+ 		 <!--ending aboutme container-->
+		
+
 
 	<section class="connect">
 		
-		<h3>Connect with Me</h3>
+		<h3 class="connectText">Connect with Me</h3>
 
-		<ul>
+		<div>
 			
 				<a href="https://stackoverflow.com/users/8116909/neetu"><img src="assets/images/stack.png" alt="StackOverFlow"></a>
 			
@@ -63,14 +59,18 @@
 
 			
 				<a href="https://www.linkedin.com/feed/?trk="><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
-			
-		</ul>
+		</div>
+		
 
 	</section>
 
-	<footer>
-		<div class="footer"> Copyright 2017 Neetu Toor </p>
-	</footer>
+	</div> <!--  ending large container-->
+
+	<div>
+		<footer>
+			<p>Copyright Neetu Toor 2017</p>
+		</footer>
+	</div>
 
 	</body>
 </html>

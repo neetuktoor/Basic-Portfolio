@@ -1,53 +1,64 @@
 body {
 	background-color: #efeee7;
-	margin: 0;
-	padding: 0;
 	font-family: "Arial", "Helvetica Neue", serif
 	"Georgia", "Times New Roman", Times, serif;
 	font-size: 18px;
-	line-height: 150%;  
+	line-height: 1.5;
+	/*margin: 20px; */
 }
 
-h1 {
-	color: #fff;
+.name {
+	padding: 10px 20px;
+	position: absolute;
+	padding-top: 25px;
+	left: 280px;
+	display: inline-block;
 	background-color: #4aaaa5;
-	text-align: left;
-	border-bottom: 20px;
-	border-color: 
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-top: 15px; 
-	font-size: 24px;
-	font-family: "Georgia", "Times", "Times New Roman";
+	padding-top: 31px;
+	padding-bottom: 10px;
+	font-size: 34px;
+	color: #fff;
 }
 
 h2 {
 	font-size: 24px;
 	font-family: "Georgia", "Times", "Times New Roman";
 	color: #4aaaa5;
-	background-color: fff;
+	background-color: #fff;
+	padding-top: 20px;
 
+}
+
+h3 {
+	font-size: 24px;
+	font-family: "Georgia", "Times", "Times New Roman";
+	color: #4aaaa5;
 }
 
 .container {
-	width: 1024px;
-	margin: 0 auto;
+	width: 100%;
+	background-color: lightgray;
 }
 
-
-#description,
-#contactInfo,
-	float: left;
+.containerheader {
+	width:100%;
+	height: 90px;
+	margin-bottom: 40px;
+	margin-top: 5px;
+	background: white;
 }
-
-#mainBio {
-	width: 70%;
-}
-
-.connect {
-	width: 30%;
-	float: right;
 	
+.containeraboutme {
+	/*width: 650px;
+	height: 500px;*/
+	width: 45%;
+	margin-left: 15%;
+	margin-bottom: 35px;
+	background: white;
+	margin: 0 auto;
+	
+}
+
 
 .contact {
 	text-align: right;
@@ -55,11 +66,62 @@ h2 {
 	color: #ffffff;
 }
 
-#navBar {
-	color: #ddd
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #fff;
+#biopic {
+	height: 300px;
+	width: 200px;
+	float: left;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none
+}
+
+.navbar {
+	float:right;
+	margin-top:30px;
+	padding:20px;
+	margin-right: 100px;
+}
+
+#description {
+	font-family: font-family: "Arial", "Helvetica Neue", serif
+	"Georgia", "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+
+.connect {
+	text-align: center;
+	position: absolute;
+	top: 125px;
+	right: 75px;
+	background: white;
+	/*height: 90px;
+	width: 180px;*/
+	width: 17%;
+	margin-bottom: 30px;
+}
+
+footer {
+	text-align: center;
+	color: #fff;
+	border-top: 5px solid #4aaaa5;
+	background: gray;
+	margin-top: 20px;
+}
+
+footer p {
+	padding-top:50px;
+}
+
+.contactMe {
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	background: white;
+}
+
+.connectText {
+	margin-bottom: 25px;
+	border-bottom: .5px solid gray;
 }
